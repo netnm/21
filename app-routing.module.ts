@@ -17,3 +17,10 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+
+npm install -g @angular/cli
+ng new projectname --no-standalone
+ng serve
+ng generate component home --no-standalone
