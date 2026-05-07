@@ -1,0 +1,30 @@
+/* Heading ke liye styling */
+h1 {
+  text-align: center;
+  color: #2c3e50;        /* Dark blue shade */
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+/* Paragraph ke liye styling */
+p {
+  text-align: center;
+  font-size: 16px;
+  color: #555;           /* Light grey */
+  margin-bottom: 10px;
+}
+
+/* Register link ke liye */
+a {
+  display: block;        /* Line pe pura dikhe */
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;        /* Bootstrap blue */
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;        /* Darker blue on hover */
+}
