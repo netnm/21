@@ -1,0 +1,17 @@
+<p>Plzz Enter your details to login</p>
+
+<form>
+  <div>
+    <label for="loginUsername">name</label>
+    <input type="text" id="loginUsername" name="username" required />
+  </div>
+
+  <div>
+    <label for="loginPassword">Password</label>
+    <input type="password" id="loginPassword" name="password" required />
+  </div>
+</form>
+
+<button type="button" (click)="onLogin()">Login</button>
+
+<p>New user? <a routerLink="/register">Register</a></p>
